@@ -1,0 +1,140 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+.logo{
+    display: flex;
+    float: left;
+}
+header .logo{
+    image-resolution: 100px;
+}
+header{
+    min-height: 110px;
+    max-height: 110px;
+}
+
+header p{
+    background-color:;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin: 0;
+    padding: 1% 0 0 2%;
+    overflow: auto;
+}
+header .logoname{
+    max-width: 25%;
+}
+header .logoname::first-letter{
+    font-size: 40px;
+}
+header .logoname::after{
+    content: "A";
+    font-size: 40px;
+}
+header .textname{
+    font-size: 15px;
+    padding: 0 0 0 4%;
+    display: flex;
+    background-color:;
+    max-width: 23%;
+    overflow: auto;
+}
+header .search{
+    font-size: 15px;
+    max-width: 25%;
+    padding: 0 2% 0 0;
+    display: flex;
+    float:right;
+    overflow: auto;
+}
+nav{
+    font-size: 18px;
+}
+nav a{
+   text-decoration: none;
+   color: black; 
+}
+
+nav a:hover{
+    color: #fff;
+    background-color: #000;
+    border-radius: 2px;
+    
+}
+
+
+main {
+    font-size: 18px;
+}
+main picture img{
+    display: block;
+    width: 60%;
+    margin: 0 0 0 20%;
+}
+main .summaryimg1{
+    margin: 0 0 0 28%;
+    display: flex;
+    
+}
+    
+main .text1::first-letter{
+    font-size: 70px;
+    float: left;
+}
+
+ul { list-style: none; padding-left: 5px; }
+a { color:blue; text-decoration: none;}
+.bar{
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+aside{
+    font-size: 18px;
+}
+aside a{
+   text-decoration: none;
+   color: black; 
+}
+
+aside a:hover{
+    color: #fff;
+    background-color: #000;
+    border-radius: 2px;
+    
+}
+.summaryvideo{
+    margin: 0 0 0 35%;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+figure {
+    text-align: center;
+}
+iframe{
+    margin: 0 0 0 6%;
+}
